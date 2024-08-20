@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Tailwind config -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+    <!-- Internal CSS -->
+    <style>
+        .manrope-font{
+            font-family: "Manrope", sans-serif;
+            font-style: normal;
+        }
+    </style>
+    <title>Tea House</title>
+</head>
+<body class="manrope-font">
+    <!-- Banner section starts -->
+    <header class="w-full pt-8 mb-20 md:mb-32">
+        <!-- Banner container starts -->
+        <div class="2xl:max-w-[1224px] max-w-[90%] flex flex-col md:flex-row items-center gap-4 md:justify-between mx-auto">
+            <!-- Banner content starts -->
+            <div class="md:w-1/2 w-full flex flex-col items-center md:items-end justify-center">
+                <div class="w-full md:w-[80%] flex flex-col items-start">
+                    <!-- Banner heading -->
+                    <h1 class="text-[2.4rem]/[3rem] md:text-[3.5rem]/[4.375rem] font-extrabold text-[#1C1C1C] m-0 mb-7">It's good<br>tea time at The<br>Tea House</h1>
+                    <!-- Banner description -->
+                    <p class="md:w-[70%] w-full text-xs/5 font-medium text-[#777777] m-0 mb-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <!-- Banner button -->
+                    <button class="text-sm :text-base text-white font-bold bg-gradient-to-l from-[#FF0000] to-[#FF8938] px-3 md:px-[16px] py-[10.8px] md:py-[14.4px] rounded-[10px]">Explore More
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>                      
+                    </button>
+                </div>
+            </div>
+            <!-- Banner content ends -->
+
+            <!-- Banner image starts -->
+            <div class="w-full md:w-1/2 h-[300px] md:h-[498.72px] flex flex-col items-center justify-center relative">
+                <!-- Banner image -->
+                <div class="w-full h-full">
+                    <img class="w-full h-full object-contain" src="images/banner.png" alt="">
+                </div>
+                <!-- Banner image rating card -->
+                <div class="bg-white px-[14px] py-[10px] md:px-[20.8px] md:py-[14.4px] rounded-[10px] shadow-lg flex flex-row items-center justify-center gap-[10.5px] absolute bottom-[2.4%] md:bottom-[2.4%] left-[2.4%] md:left-[12.36%]">
+                    <i class="fa-solid fa-star fa-xl md:fa-2xl" style="color: #FFC850;"></i>
+                    <div>
+                        <h2 class="text-xl md:text-2xl font-extrabold text-left text-[#1C1C1C] m-0">5.00</h2>
+                        <p class="text-xs font-semibold text-left text-[#777777]">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Banner image ends -->
+        </div>
+        <!-- Banner container ends -->
+    </header>
+    <!-- Banner section ends -->
+
+    <main class="w-full">
+        <!-- Featured section starts -->
+        <section class="max-w-[90%] md:max-w-[75%] mx-auto flex flex-col items-center gap-12 mb-20 md:mb-32">
+            <!-- Featured headings starts -->
+            <div class="w-full md:w-4/5">
+                <!-- Featured heading -->
+               <h1 class="text-4xl font-extrabold text-[#1C1C1C] text-center m-0 mb-6">Our Featured Products</h1>
+               <!-- Featured description -->
+               <p class="text-sm/6 font-medium text-[#777777] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <!-- Featured heading ends -->
+
+            <!-- Featured card grid starts -->
+            <div class="w-full grid grid-cols-1 xl:grid-cols-4 gap-6">
+                <!-- Card-1 -->
+                <div class="w-full px-[30px] pt-[30px] pb-[35px] rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-transparent flex flex-col items-center">
+                    <div class="w-4/5 h-52 mb-7">
+                        <img class="w-full h-full object-contain" src="images/tea-1.png" alt="">
+                    </div>
+                    <h2 class="text-xl font-extrabold text-[#1C1C1C] text-center m-0 mb-3">Milk Tea</h2>
+                    <p class="text-sm font-semibold text-[#777777] text-center">Creamer could be replaced by fresh milk.</p>
+                </div>
+                <!-- Card-2 -->
+                <div class="w-full px-[30px] pt-[30px] pb-[35px] rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-transparent flex flex-col items-center">
+                    <div class="w-4/5 h-52 mb-7">
+                        <img class="w-full h-full object-contain" src="images/tea-2.png" alt="">
+                    </div>
+                    <h2 class="text-xl font-extrabold text-[#1C1C1C] text-center m-0 mb-3">Black Tea</h2>
+                    <p class="text-sm font-semibold text-[#777777] text-center">Creamer could be replaced by fresh milk.</p>
+                </div>
+                <!-- Card-3 -->
+                <div class="w-full px-[30px] pt-[30px] pb-[35px] rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-transparent flex flex-col items-center">
+                    <div class="w-4/5 h-52 mb-7">
+                        <img class="w-full h-full object-contain" src="images/tea-3.png" alt="">
+                    </div>
+                    <h2 class="text-xl font-extrabold text-[#1C1C1C] text-center m-0 mb-3">Lemon Tea</h2>
+                    <p class="text-sm font-semibold text-[#777777] text-center">Creamer could be replaced by fresh milk.</p>
+                </div>
+                <!-- Card-4 -->
+                <div class="w-full px-[30px] pt-[30px] pb-[35px] rounded-[10px] bg-gradient-to-b from-[#F4F4F4] to-transparent flex flex-col items-center">
+                    <div class="w-4/5 h-52 mb-7">
+                        <img class="w-full h-full object-contain" src="images/tea-4.png" alt="">
+                    </div>
+                    <h2 class="text-xl font-extrabold text-[#1C1C1C] text-center m-0 mb-3">Green Tea</h2>
+                    <p class="text-sm font-semibold text-[#777777] text-center">Creamer could be replaced by fresh milk.</p>
+                </div>
+            </div>
+            <!-- Featured grid ends -->
+        </section>
+        <!-- Featured section ends -->
+
+        <!-- Great tea section starts -->
+        <section class="max-w-[90%] md:max-w-[75%] mx-auto flex md:flex-row flex-col items-center gap-9 md:gap-0 md:justify-between mb-20 md:mb-32">
+            <!-- Gradient grid starts -->
+            <div class="w-full md:w-[45%] grid grid-cols-2 gap-7">
+                <!-- Card-1 w/o image -->
+                <div class="w-full h-[80px] md:h-[136px] rounded-[10px] bg-gradient-to-r to-[#FF8938]/[0.1] from-[#FF0000]/[0.1]"></div>
+                <!-- Crad-2 w/ image -->
+                <div class="w-full h-[250px] md:h-[355.28px] px-[21.11px] md:px-[30px] pt-[40.81px] md:pt-[58px] pb-[21.11px] md:pb-[30px] rounded-[10px] row-span-2 bg-[#E6A6231A]/[0.1]">
+                    <img class="w-full h-[187.17px] md:h-[266px] object-contain" src="images/fresh-1.png" alt="">
+                </div>
+                <!-- Card-3 w/ image -->
+                <div class="w-full h-[250] md:h-[355.28px] px-[32.36px] md:px-[46px] pt-[34.47px] md:pt-[49px] pb-[30.25px] md:pb-[43px] rounded-[10px] row-span-2 bg-[#5776391A]/[0.1]">
+                    <img class="w-full h-[192.1px] md:h-[273px] object-contain" src="images/fresh-2.png" alt="">
+                </div>
+                <!-- Card-4 w/o image -->
+                <div class="w-full h-[80px] md:h-[136px] rounded-[10px] bg-gradient-to-r to-transparent from-[#D9D9D9]"></div>
+            </div>
+            <!-- Gradient grid ends -->
+
+            <!-- Great tea section content starts -->
+            <div class="w-full md:w-1/2 flex flex-col items-start">
+                <!-- Section heading -->
+                <h1 class="text-3xl md:text-4xl font-extrabold text-[#1C1C1C] text-left m-0 mb-6 md:mb-8">Great Tea, Freshly<br>Presented</h1>
+                <!-- Section description -->
+                <p class="text-xs/5 md:text-sm/6 font-medium text-[#777777] text-left m-0 mb-6 md:mb-8">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                <!-- Section sub heading-1 -->
+                <h3 class="text-sm md:text-base font-extrabold text-[#1C1C1C] text-left m-0 mb-[10px] md:mb-3">Unique Taste</h3>
+                <!-- Section sub description-1 -->
+                <p class="w-full md:w-[80%] text-xs/5 md:text-sm/6 font-medium text-[#777777] text-left m-0 mb-3 md:mb-4">A Unique and different style from other teapots gives a luxurious and minimalist impression.</p>
+                <!-- Section sub heading-2 -->
+                <h3 class="text-sm md:text-base font-extrabold text-[#1C1C1C] text-left m-0 mb-[10px] md:mb-3">Premium Quality</h3>
+                <!-- Section sub description-2 -->
+                <p class="w-full md:w-[80%] text-xs/5 md:text-sm/6 font-medium text-[#777777] text-left m-0">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+            </div>
+            <!-- Great tea section content ends -->
+        </section>
+        <!-- Great tea section ends -->
+
+        <!-- Meet client section starts -->
+        <section class="max-w-[90%] md:max-w-[75%] h-[1100px] md:h-[650px] px-5 md:px-[70px] rounded-[10px] bg-gradient-to-l from-[#FF0000] to-[#FF8938] mx-auto flex md:flex-row flex-col items-center md:justify-between mb-20 md:mb-32">
+            <!-- Section content starts -->
+            <div class="w-full md:w-[44%] h-[35%] md:h-full flex flex-col items-start justify-center relative">
+                <!-- Main content -->
+                <div class="w-full flex flex-col items-start">
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-white text-left m-0 mb-5">Meet Our Super Clients</h1>
+                    <p class="text-xs/5 md:text-sm/6 font-medium text-white text-left m-0 mb-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                    <button class="bg-white px-6 py-3 rounded-lg text-base"><a class="font-bold text-transparent bg-clip-text bg-gradient-to-l from-[#FF0000] to-[#FF8938]" href="">Show All</a></button>
+                </div>
+                <!-- Content background -->
+                <div class="w-full h-[336px] absolute bottom-0 right-0">
+                    <img class="w-full h-full object-contain" src="images/bg_cup.png" alt="">
+                </div>
+            </div>
+            <!-- Section content ends -->
+
+            <!-- Comment card starts -->
+            <div class="w-full h-[60%] md:h-full md:w-[52.4%] flex flex-col justify-center items-end relative">
+
+                <!-- Front card -->
+                <div class="w-[71.75%] absolute z-10 top-[calc(50%-150px)] md:top-[calc(50%-100px)] left-[10%]">
+                    <div class="w-full h-[300px] md:h-[200px] bg-white rounded-[7px] flex flex-col justify-center relative">
+                        <!-- User image -->
+                        <div class="w-[20%] md:w-[13.85%] absolute border-2 border-white rounded-full -top-[4.85%] -left-[4.85%]">
+                            <img class="w-full h-full" src="images/client.png" alt="">
+                        </div>
+                        <!-- Comment content -->
+                        <div class="w-full py-8 pl-12 pr-10">
+                            <p class="text-xs/5 font-medium text-[#777777] text-left m-0 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                            <h3 class="text-xs/5 font-bold text-[#1C1C1C] text-left">Ilham Yuda</h3>
+                            <p class="text-xs/5 font-medium text-[#5D5A6F] text-left m-0">Businessman</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Background cards -->
+                <div class="w-[71.75%] flex flex-col gap-14 opacity-30">
+                    <!-- Background card-1 -->
+                    <div class="w-full h-[300px] md:h-[200px] bg-white rounded-[7px] flex flex-col justify-center relative">
+                        <!-- User image -->
+                        <div class="w-[20%] md:w-[13.85%] absolute border-2 border-white rounded-full -top-[4.85%] -left-[4.85%]">
+                            <img class="w-full h-full" src="images/client.png" alt="">
+                        </div>
+                        <!-- Comment content -->
+                        <div class="w-full py-8 pl-12 pr-10">
+                            <p class="text-xs/5 font-medium text-[#777777] text-left m-0 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                            <h3 class="text-xs/5 font-bold text-[#1C1C1C] text-left">Ilham Yuda</h3>
+                            <p class="text-xs/5 font-medium text-[#5D5A6F] text-left m-0">Businessman</p>
+                        </div>
+                    </div>
+                    <!-- Background card-2 -->
+                    <div class="w-full h-[300px] md:h-[200px] bg-white rounded-[7px] flex flex-col justify-center relative">
+                        <!-- User image -->
+                        <div class="w-[20%] md:w-[13.85%] absolute border-2 border-white rounded-full -top-[4.85%] -left-[4.85%]">
+                            <img class="w-full h-full" src="images/client.png" alt="">
+                        </div>
+                        <!-- Comment content -->
+                        <div class="w-full py-8 pl-12 pr-10">
+                            <p class="text-xs/5 font-medium text-[#777777] text-left m-0 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                            <h3 class="text-xs/5 font-bold text-[#1C1C1C] text-left">Ilham Yuda</h3>
+                            <p class="text-xs/5 font-medium text-[#5D5A6F] text-left m-0">Businessman</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Comment card ends -->
+        </section>
+        <!-- Meet client section ends -->
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
